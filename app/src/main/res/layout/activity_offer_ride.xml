@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.muhammadwasi228.carpoolingv2.OfferRIdeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/offer_ride_from"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="8dp"
+        android:text="From"
+        android:textColor="@color/colorPrimaryDark" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/offer_ride_from_address"
+        android:layout_height="35dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/textview_background"
+        android:textColor="@color/colorPrimaryDark" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/offer_ride_to"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="To"
+        android:paddingLeft="8dp"
+        android:textColor="@color/colorPrimaryDark" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/offer_ride_to_address"
+        android:layout_height="35dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/textview_background"
+        android:textColor="@color/colorPrimaryDark" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/offer_ride_date"
+            android:layout_weight="1"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Date"
+
+
+            android:paddingLeft="8dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/offer_ride_time"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:paddingLeft="8dp"
+            android:text="Time"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/offer_ride_date_box"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/textview_background"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="8dp"        android:textColor="@color/colorPrimaryDark" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/offer_ride_time_box"
+        android:layout_weight="1"
+        android:layout_height="35dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/textview_background"
+        android:textColor="@color/colorPrimaryDark" />
+
+</LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/offer_ride_car"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Car"
+        android:paddingLeft="8dp"
+        android:textColor="@color/colorPrimaryDark" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/offer_ride_car_box"
+        android:layout_height="35dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/textview_background"
+        android:textColor="@color/colorPrimaryDark" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/offer_ride_accomodation"
+            android:layout_weight="1"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Accomodation"
+
+
+            android:paddingLeft="8dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/offer_ride_ticket"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:paddingLeft="8dp"
+            android:text="Ticket per Seat"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/offer_ride_accomodation_box"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/textview_background"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="8dp"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/offer_ride_ticket_box"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="8dp"
+
+            android:background="@drawable/textview_background"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+
+    <!--<TextView
+        android:layout_width="match_parent"
+
+        android:id="@+id/offer_ride_accomodation"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Accomdatoion"
+        android:paddingLeft="8dp"
+        android:textColor="@color/colorPrimaryDark" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/offer_ride_accomodation_box"
+        android:layout_height="35dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/textview_background"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:id="@+id/offer_ride_ticket"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Ticket"
+        android:paddingLeft="8dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/offer_ride_ticket_box"
+        android:layout_height="35dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/textview_background"
+        android:textColor="@color/colorPrimaryDark" />!-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Offer Ride" />
+</LinearLayout>

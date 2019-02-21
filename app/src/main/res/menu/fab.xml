@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/offer_ride"
+        android:title="Offer Ride"
+        android:icon="@drawable/ic_add"/>
+    <item
+        android:id="@+id/search_ride"
+        android:title="Search Ride"
+        android:icon="@drawable/ic_search"/>
+/></menu>
